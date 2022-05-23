@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Top header section */
+#about-header-section{
+    background: url(../img/photo_ParkCity.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#about-header-section .about-header h3{
+color: #fff;
+font-size: 56px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+/* About bluehost section */
+#about-bluehost-section  p{
+    color: #495c77;
+}
+
+/* bluehost service section */
+#bluehost-service-section .bluehost-service .wordpress .wordpress-text p, #opensource-section .opensource .opensource-text p{ 
+    width: 70%;
+    color: #495c77;
+}
+
+/* Explore section */
+#explore-section{
+    background-color: #edf4f9;
+    border-bottom: 1px solid #3575d3;
+    border-top: 1px solid #3575d3;
+}
+
+#explore-section .explore-services .explore-text p{
+    color: #495c77;
+}
+
+/* footer section */
+
+#about-footer{
+    background-color: #4a83d8;
+}
+
+#about-footer .product-service h6{
+    color: #fff;
+}
+
+#about-footer .contacts .contact-details ul li, h5{
+    list-style: none;
+    color: #fff;
+}
