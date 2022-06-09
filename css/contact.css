@@ -50,3 +50,10 @@ font-size: 56px;
     list-style: none;
     color: #fff;
 }
+
+
+@media(max-width: 426px){
+    .contacts .contact-details{
+        flex-direction: column;
+    }
+}

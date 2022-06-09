@@ -80,3 +80,22 @@
     list-style: none;
     color: #fff;
 }
+
+@media(max-width: 426px){
+    #hero-section .hero-box, #seo-section .seo-services, #ppc-section .ppc-service, #wms-section .wms-service{
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width: 376px){
+    .contacts .contact-details{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 321px){
+    #service-section .down-service .right-service h2, #seo-section .seo-services h2, #ppc-section .ppc-service h2, #wms-section .wms-service .left-wms h2{
+        font-size: 32px;
+    }
+}

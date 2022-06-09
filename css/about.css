@@ -56,3 +56,30 @@ font-family: 'Times New Roman', Times, serif;
     list-style: none;
     color: #fff;
 }
+
+@media(max-width:426px){
+   #bluehost-service-section .bluehost-service .wordpress, #opensource-section .opensource-service .opensource{
+       flex-direction: column;
+   }
+
+   #bluehost-service-section .bluehost-service .wordpress .wordpress-text p, #opensource-section .opensource .opensource-text p{
+       width: 100%;
+   }
+   
+}
+
+
+
+@media(max-width:320px){
+    #bluehost-service-section .bluehost-service .wordpress .wordpress-text, #opensource-section .opensource .opensource-text{
+        padding-left: 0px !important;
+        padding-right: 0px !important;  
+      }
+
+      #bluehost-service-section .bluehost-service .wordpress img, #opensource-section .opensource img{
+          display: none;
+      }
+      .contacts .contact-details{
+          flex-direction: column;
+      }
+}
