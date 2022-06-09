@@ -65,6 +65,10 @@ font-family: 'Times New Roman', Times, serif;
    #bluehost-service-section .bluehost-service .wordpress .wordpress-text p, #opensource-section .opensource .opensource-text p{
        width: 100%;
    }
+
+   .contacts .contact-details{
+    flex-direction: column;
+}
    
 }
 
