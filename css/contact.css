@@ -56,4 +56,23 @@ font-size: 56px;
     .contacts .contact-details{
         flex-direction: column;
     }
+
+
+    #support-section .support-team, #social-media-section .social-media{
+        flex-direction: column;
+    }
+
+    #social-media-section .social-media .media-image{
+        width: 100%;
+        text-align: center;
+    }
+
+    #social-media-section .social-media .media-connect h2{
+        font-size: 38px;
+        text-align: center;
+    }
+
+    #social-media-section .social-media .media-connect .media-link{
+        text-align: center;
+    }
 }
