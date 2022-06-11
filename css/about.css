@@ -69,15 +69,36 @@ font-family: 'Times New Roman', Times, serif;
    .contacts .contact-details{
     flex-direction: column;
 }
-   
+
+#bluehost-service-section, #opensource-section {
+    padding-left: 0px !important;
+    padding-right: 0px !important;  
+    padding: 5% !important;
+  }
+
+  #bluehost-service-section .bluehost-service .wordpress .wordpress-text, #opensource-section .opensource-service .opensource-text{
+      padding-left: 0px !important;
+      padding-right: 0px!important;
+  }
+
+
+}
+
+@media(max-width:376px){
+    #bluehost-service-section, #opensource-section {
+        padding-left: 0px !important;
+        padding-right: 0px !important;  
+       padding: 5%!important;
+      }
 }
 
 
 
 @media(max-width:320px){
-    #bluehost-service-section .bluehost-service .wordpress .wordpress-text, #opensource-section .opensource .opensource-text{
+    #bluehost-service-section, #opensource-section {
         padding-left: 0px !important;
         padding-right: 0px !important;  
+        padding: 5% !important;
       }
 
       #bluehost-service-section .bluehost-service .wordpress img, #opensource-section .opensource img{
